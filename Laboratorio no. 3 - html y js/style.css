@@ -1,0 +1,60 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #caa695;
+    color: #000000;
+    padding: 20px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 2.5em;
+    color: #484b5a;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #d2c7b3;
+}
+
+p {
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #d7e142;
+}
+
+#resultado {
+    background-color: #fff8e8;
+    border: 1px solid #d2c7b3;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    display: block;
+    background-color: #8d7a65;
+    color: #f4ecd8;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px #d2c7b3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #735f4a;
+}
